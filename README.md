@@ -1,3 +1,3 @@
-# כסף · עולם
+# Money · World
 
-אתר מודעות עצמאי בעברית שבוחן איך כסף משפיע על העולם, על חברות ועל הפסיכולוגיה האנושית. עמוד יחיד, ללא תלויות חיצוניות מלבד גופנים — פתחו את `index.html.html` בדפדפן.
+An independent awareness site exploring how money shapes the world, society, and human psychology. Single page, no external dependencies besides fonts — open `index.html.html` in a browser.
