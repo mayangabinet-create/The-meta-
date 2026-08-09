@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+:root {
+  --background: #0a0a0c;
+  --surface: #17171b;
+  --surface-2: #202024;
+  --border: #2a2a30;
+  --foreground: #f4f4f5;
+  --muted: #9a9aa2;
+  --accent: #2dd4bf;
+  --accent-2: #7c6bff;
+  --danger: #f87171;
+  --tier-high: #fb7185;
+  --tier-medium: #fb923c;
+  --tier-low: #fbbf24;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-border: var(--border);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-accent-2: var(--accent-2);
+  --color-danger: var(--danger);
+  --color-tier-high: var(--tier-high);
+  --color-tier-medium: var(--tier-medium);
+  --color-tier-low: var(--tier-low);
+  --font-sans: var(--font-heebo);
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+html,
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+body {
+  font-family: var(--font-heebo), system-ui, sans-serif;
+}
+
+::selection {
+  background: var(--accent);
+  color: #06120f;
+}
+
+input,
+select,
+textarea {
+  color-scheme: dark;
+}
